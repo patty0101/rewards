@@ -1,11 +1,11 @@
 .App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +35,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+tr {
+  width: 800px;
+  height: 50px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0px;
+  margin-top: 50px;
+}
+
+td, th {
+  padding: 10px;
+  border: 0px solid black;
+  /* border-collapse:collapse; */
 }
